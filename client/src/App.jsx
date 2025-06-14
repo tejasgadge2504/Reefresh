@@ -1,15 +1,19 @@
 import React from 'react'
 import { CardDemo } from './pages/Auth/Login/LoginUser'
 import { Route, Routes } from 'react-router-dom'
-import LandingpageUser from './pages/LandingpageUser.jsx/LandingpageUser'
+import LandingpageUser from './pages/LandingpageUser/LandingpageUser'
+import Dashboard from './pages/Admin/Dashboard/Dashboard'
+import CreateEvent from './pages/Admin/Events/CreateEvent'
 
 const App = () => {
   return (
-    <div className='w-screen flex justify-center items-center h-screen'>
+    <div className='w-screen py-[50px]'>
       
       <Routes>
         <Route path='/' element={<CardDemo/>} />
         <Route path='/landPageUser' element={<LandingpageUser/>} />
+        <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/create-event' element={<CreateEvent/>}/>
       </Routes>
     </div>
     

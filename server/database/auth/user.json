@@ -1,7 +1,7 @@
 [
   {
     "username": "tejas_g",
-    "password": "Tg@12345",
+    "password": "T@12345",
     "fullName": "Tejas Gadge",
     "email": "tejasgadge@example.com",
     "gender": "Male",
@@ -9,7 +9,7 @@
     "pincode": "400001",
     "contactNo": "9876543210",
     "impactCoins": 120,
-    "role": "s_admin"
+    "role": "admin"
   },
   {
     "username": "vedant_m",
