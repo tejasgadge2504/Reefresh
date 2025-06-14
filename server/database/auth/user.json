@@ -1,5 +1,182 @@
 [
-    {
-        
-    }
+  {
+    "username": "tejas_g",
+    "password": "Tg@12345",
+    "fullName": "Tejas Gadge",
+    "email": "tejasgadge@example.com",
+    "gender": "Male",
+    "city": "Mumbai",
+    "pincode": "400001",
+    "contactNo": "9876543210",
+    "impactCoins": 120,
+    "role": "s_admin"
+  },
+  {
+    "username": "vedant_m",
+    "password": "Ved@321",
+    "fullName": "Vedant Mhatre",
+    "email": "vedantm@example.com",
+    "gender": "Male",
+    "city": "Navi Mumbai",
+    "pincode": "400703",
+    "contactNo": "9765432101",
+    "impactCoins": 98,
+    "role": "admin"
+  },
+  {
+    "username": "anisha_s",
+    "password": "Ani#4567",
+    "fullName": "Anisha Shankar",
+    "email": "anisha@example.com",
+    "gender": "Female",
+    "city": "Thane",
+    "pincode": "400601",
+    "contactNo": "9123456780",
+    "impactCoins": 150,
+    "role": "user"
+  },
+  {
+    "username": "deepak_k",
+    "password": "Dk@9876",
+    "fullName": "Deepak Kumbhar",
+    "email": "deepakk@example.com",
+    "gender": "Male",
+    "city": "Pune",
+    "pincode": "411001",
+    "contactNo": "9012345678",
+    "impactCoins": 76,
+    "role": "user"
+  },
+  {
+    "username": "atharva_p",
+    "password": "Ap$3210",
+    "fullName": "Atharva Patil",
+    "email": "atharvap@example.com",
+    "gender": "Male",
+    "city": "Nagpur",
+    "pincode": "440001",
+    "contactNo": "9823456789",
+    "impactCoins": 130,
+    "role": "user"
+  },
+  {
+    "username": "niraj_d",
+    "password": "Nd!7654",
+    "fullName": "Niraj Desai",
+    "email": "nirajd@example.com",
+    "gender": "Male",
+    "city": "Aurangabad",
+    "pincode": "431001",
+    "contactNo": "9234567810",
+    "impactCoins": 112,
+    "role": "user"
+  },
+  {
+    "username": "ganesh_s",
+    "password": "Gs@1122",
+    "fullName": "Ganesh Shelar",
+    "email": "ganeshs@example.com",
+    "gender": "Male",
+    "city": "Nashik",
+    "pincode": "422001",
+    "contactNo": "9345678901",
+    "impactCoins": 90,
+    "role": "admin"
+  },
+  {
+    "username": "ummul_k",
+    "password": "Uk#2233",
+    "fullName": "Ummulkiram Mahuvawala",
+    "email": "ummulk@example.com",
+    "gender": "Female",
+    "city": "Mumbai",
+    "pincode": "400002",
+    "contactNo": "9456789012",
+    "impactCoins": 85,
+    "role": "user"
+  },
+  {
+    "username": "sanya_r",
+    "password": "Sr@3344",
+    "fullName": "Sanya Rathi",
+    "email": "sanyar@example.com",
+    "gender": "Female",
+    "city": "Delhi",
+    "pincode": "110001",
+    "contactNo": "9567890123",
+    "impactCoins": 125,
+    "role": "admin"
+  },
+  {
+    "username": "amit_j",
+    "password": "Aj$4455",
+    "fullName": "Amit Joshi",
+    "email": "amitj@example.com",
+    "gender": "Male",
+    "city": "Indore",
+    "pincode": "452001",
+    "contactNo": "9678901234",
+    "impactCoins": 70,
+    "role": "user"
+  },
+  {
+    "username": "isha_p",
+    "password": "Ip!5566",
+    "fullName": "Isha Patel",
+    "email": "ishap@example.com",
+    "gender": "Female",
+    "city": "Ahmedabad",
+    "pincode": "380001",
+    "contactNo": "9789012345",
+    "impactCoins": 140,
+    "role": "user"
+  },
+  {
+    "username": "rohan_k",
+    "password": "Rk@6677",
+    "fullName": "Rohan Khanna",
+    "email": "rohank@example.com",
+    "gender": "Male",
+    "city": "Bangalore",
+    "pincode": "560001",
+    "contactNo": "9890123456",
+    "impactCoins": 105,
+    "role": "user"
+  },
+  {
+    "username": "sneha_m",
+    "password": "Sm#7788",
+    "fullName": "Sneha Mehta",
+    "email": "sneham@example.com",
+    "gender": "Female",
+    "city": "Hyderabad",
+    "pincode": "500001",
+    "contactNo": "9901234567",
+    "impactCoins": 95,
+    "role": "admin"
+  },
+  {
+    "username": "arjun_r",
+    "password": "Ar@8899",
+    "fullName": "Arjun Rao",
+    "email": "arjunr@example.com",
+    "gender": "Male",
+    "city": "Chennai",
+    "pincode": "600001",
+    "contactNo": "9012345671",
+    "impactCoins": 88,
+    "role": "user"
+  },
+  {
+    "username": "priya_k",
+    "password": "Pk$9900",
+    "fullName": "Priya Kapoor",
+    "email": "priyak@example.com",
+    "gender": "Female",
+    "city": "Kolkata",
+    "pincode": "700001",
+    "contactNo": "9123456790",
+    "impactCoins": 110,
+    "role": "user"
+  }
 ]
