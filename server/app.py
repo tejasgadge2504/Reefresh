@@ -55,6 +55,14 @@ def addEvent():
     except Exception as e:
         return jsonify({"success": False, "msg": "Error while saving event", "error": str(e)}), 500
 
+@app.route('/getEvents', methods=['GET'])
+def getEvents():
+    try:
+        with open('./database/events/pendingEvents.json', 'r') as f:
+            events = json.load(f)
+        return jsonify({"success": True, "events": events}), 200
+    except Exception as e:
+        return jsonify({"success": False, "msg": "Could not fetch events", "error": str(e)}), 500
 
 
 if __name__ == '__main__':

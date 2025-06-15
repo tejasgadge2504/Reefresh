@@ -3,6 +3,8 @@ import NavbarPostLogin from '../../Home/NavbarPostLogin/NavbarPostLogin'
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import AdminHero from '../AdminHero/AdminHero';
+import { Space } from 'lucide-react';
+import DisplayEvents from '../Events/DisplayEvents';
 
 const Dashboard = () => {
 
@@ -16,9 +18,11 @@ const Dashboard = () => {
   }, [user, navigate]); 
 
   return (
-    <div className='w-screen'>
+    <div className='w-screen '>
         <NavbarPostLogin uName={user?.fullName} />
         <AdminHero/>
+
+        <DisplayEvents/>
     </div>
   )
 }

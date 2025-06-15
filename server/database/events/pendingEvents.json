@@ -23,5 +23,30 @@
         "eventBanner": "flyer.png",
         "eventPoster": "poster.png",
         "ngoLogo": "logo.png"
+    },
+    {
+        "eventName": "Beach Cleanup Drive",
+        "eventType": "Beach Cleanup",
+        "description": "A volunteer-driven effort to clean the coastline and raise awareness.",
+        "orgName": "Tide Turners",
+        "location": "South Mumbai",
+        "date": "2025-06-30",
+        "startTime": "07:00",
+        "endTime": "11:00",
+        "lastDate": "2025-06-21",
+        "regTime": "23:59",
+        "venue": "Girgaon Chowpatty",
+        "address": "Girgaon Chowpatty Beach, Mumbai, Maharashtra",
+        "mapLink": "https://maps.google.com/?q=Girgaon+Chowpatty",
+        "nearestStop": "Charni Road",
+        "volunteers": "100",
+        "instructions": "Gloves and garbage bags will be provided. Bring a reusable water bottle and wear comfortable shoes",
+        "isOpenToAll": true,
+        "contactEmail": "abc@gmail.com",
+        "contactNumber": "9234567895",
+        "approvalStatus": false,
+        "eventBanner": "flyer.png",
+        "eventPoster": "poster.png",
+        "ngoLogo": "logo.png"
     }
 ]
