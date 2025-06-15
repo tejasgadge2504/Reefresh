@@ -16,8 +16,10 @@ const LandingpageUser = () => {
 
   return (
     <div>
+      
       <Navbar />
       <Header/>
+
     </div>
   );
 };

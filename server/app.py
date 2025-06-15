@@ -1,5 +1,6 @@
 from flask import Flask,request,jsonify
 import json
+import os
 from flask_cors import CORS
 
 
@@ -28,5 +29,33 @@ def login():
         return jsonify({"success": False, "msg": "Server Error", "error": str(e)}), 500
     
     
+# ✅ New route to handle event creation
+@app.route('/addEvent', methods=['POST'])
+def addEvent():
+    try:
+        data = request.get_json()
+
+        file_path = './database/events/pendingEvents.json'
+
+        # Ensure the file exists
+        if not os.path.exists(file_path):
+            with open(file_path, 'w') as f:
+                json.dump([], f)
+
+        with open(file_path, 'r') as file:
+            events = json.load(file)
+
+        events.append(data)
+
+        with open(file_path, 'w') as file:
+            json.dump(events, file, indent=4)
+
+        return jsonify({"success": True, "msg": "Event added successfully!"}), 201
+
+    except Exception as e:
+        return jsonify({"success": False, "msg": "Error while saving event", "error": str(e)}), 500
+
+
+
 if __name__ == '__main__':
     app.run()
