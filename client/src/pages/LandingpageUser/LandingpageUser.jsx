@@ -1,6 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import React from "react";
+import Navbar from "../Home/Navbar/Navbar";
+import Header from "../Home/Header/Header";
 
 const LandingpageUser = () => {
   const navigate = useNavigate();
@@ -8,20 +10,14 @@ const LandingpageUser = () => {
 
   useEffect(() => {
     if (!user) {
-      navigate("/"); 
+      navigate("/");
     }
-  }, [user, navigate]); 
-
-  const handleLogout = () => {
-    localStorage.removeItem("user");
-    navigate("/"); 
-  };
+  }, [user, navigate]);
 
   return (
     <div>
-      <h2>Hello, {user?.fullName}</h2>
-
-      <Button onClick={handleLogout}>Logout</Button>
+      <Navbar />
+      <Header/>
     </div>
   );
 };

@@ -1,0 +1,82 @@
+.header {
+    height: 42vw;
+    width: auto;
+    padding: 30px auto;
+    background: url('/hero.gif') no-repeat center;
+    background-size: cover;
+    position: relative;
+    /* border-radius: 20px; */
+  }
+  
+  /* Contents inside the header */
+  .header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+    color: white;
+    padding: 120px;
+  }
+
+  .header-contents button {
+    color: black;
+  }
+  
+  /* Optional: Keyframes for fade-in */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* ---------------------- */
+  /* 📱 Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+    .header {
+      height: auto;
+      margin: 20px 10px;
+      padding: 40vw 0 20px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+  
+    .header-contents {
+      position: static;
+      max-width: 100%;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .header-contents h2 {
+      font-size: 1.8rem;
+      line-height: 1.3;
+    }
+  
+    .header-contents p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: 1rem 0;
+      padding: 0 0.5rem;
+    }
+  
+    .header-contents button {
+      font-size: 1rem;
+      padding: 0.75rem 1.5rem;
+      width: 100%;
+      max-width: 250px;
+      border-radius: 30px;
+    }
+  }
+  

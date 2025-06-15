@@ -5,19 +5,19 @@ import LandingpageUser from './pages/LandingpageUser/LandingpageUser'
 import Dashboard from './pages/Admin/Dashboard/Dashboard'
 import CreateEvent from './pages/Admin/Events/CreateEvent'
 
+
 const App = () => {
   return (
-    <div className='w-screen py-[50px]'>
-      
+    <div className="w-screen py-[50px]">
       <Routes>
-        <Route path='/' element={<CardDemo/>} />
-        <Route path='/landPageUser' element={<LandingpageUser/>} />
-        <Route path='/dashboard' element={<Dashboard/>}/>
-        <Route path='/create-event' element={<CreateEvent/>}/>
+        <Route path="/" element={<CardDemo />} />
+        <Route path="/landPageUser" element={<LandingpageUser />} />
+        {/* <Route path="/" element={<LandingpageUser />} /> */}
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/create-event" element={<CreateEvent />} />
       </Routes>
     </div>
-    
-  )
+  );
 }
 
 export default App
