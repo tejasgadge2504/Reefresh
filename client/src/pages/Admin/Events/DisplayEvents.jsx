@@ -6,7 +6,7 @@ const DisplayEvents = () => {
 
   const [events, setEvents] = useState([]);
    useEffect(() => {
-    axios.get('http://localhost:5000/getEvents')
+    axios.get('https://reefresh.onrender.com/getEvents')
       .then(res => {
         if (res.data.success) {
           setEvents(res.data.events);

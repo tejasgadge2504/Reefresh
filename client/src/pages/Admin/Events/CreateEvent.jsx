@@ -65,7 +65,7 @@ const CreateEvent = () => {
     };
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/addEvent", data);
+      const response = await axios.post("https://reefresh.onrender.com/addEvent", data);
       console.log("Event Created Successfully:", response.data);
       alert("Event Created Successfully!");
       navigate('/dashboard')
