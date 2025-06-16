@@ -1,5 +1,6 @@
 [
     {
+        "key": "9876543210_1721126400000",
         "eventName": "Beach Cleanup Drive",
         "eventType": "Beach Cleanup",
         "description": "A volunteer-driven effort to clean the coastline and raise awareness.",
@@ -25,6 +26,7 @@
         "ngoLogo": "logo.png"
     },
   {
+    "key": "9876543210_1721130000000",
     "eventName": "Tree Plantation Drive",
     "eventType": "Environment",
     "description": "Join us to plant trees and contribute to a greener tomorrow.",
@@ -50,6 +52,7 @@
     "ngoLogo": "green_logo.png"
   },
   {
+    "key": "9876543210_1721133600000",
     "eventName": "Beach Cleanup Drive",
     "eventType": "Beach Cleanup",
     "description": "A volunteer-driven effort to clean the coastline and raise awareness.",
@@ -75,6 +78,7 @@
     "ngoLogo": "logo.png"
   },
   {
+    "key": "9765432101_1721133600000",
     "eventName": "Food Distribution Drive",
     "eventType": "Community Service",
     "description": "Helping the homeless by distributing free meals and essentials.",

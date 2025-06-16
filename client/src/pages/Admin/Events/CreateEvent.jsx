@@ -7,8 +7,12 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const CreateEvent = () => {
+
+  const user = JSON.parse(localStorage.getItem('user'));
+
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
+    key: `${user.contactNo}_${Date.now()}`,
     eventName: "",
     eventType: "",
     description: "",
