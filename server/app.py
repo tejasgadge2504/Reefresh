@@ -78,7 +78,7 @@ def sadmin_getEvents():
         if(pendingEvents):
             return jsonify({"success": True,"pendingEvents":pendingEvents}),200
         else:
-            return jsonify({"success": True,"pendingEvents":"No Events found to Approve"}),200
+            return jsonify({"success": True,"pendingEvents":[],"msg":"No pending events"}),200
     except Exception as e:
         return jsonify({"success": False,"msg": "Could not fetch events", "error": str(e)}),500
             
