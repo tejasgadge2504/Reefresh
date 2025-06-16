@@ -71,7 +71,7 @@ def sadmin_getEvents():
         with open('/database/events/pendingEvents.json','r') as f:
             events = json.load(f)
             for eve in events:
-                if eve.approvalStatus == false:
+                if eve['approvalStatus'] == False:
                     pendingEvents += eve
             if(pendingEvents):
                 return jsonify({"success": True,"pendingEvents":pendingEvents}),200
