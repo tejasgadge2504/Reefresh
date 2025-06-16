@@ -65,5 +65,22 @@ def getEvents():
         return jsonify({"success": False, "msg": "Could not fetch events", "error": str(e)}), 500
 
 
+@app.route('/sadmin_getEvents')
+def sadmin_getEvents():
+    try:
+        with open('/database/events/pendingEvents.json','r') as f:
+            events = json.load(f)
+            for eve in events:
+                if eve.approvalStatus == false:
+                    pendingEvents += eve
+            if(pendingEvents):
+                return jsonify({"success": True,"pendingEvents":pendingEvents}),200
+            else:
+                return jsonify({"success": True,"pendingEvents":"No Events found to Approve"}),200
+    except Exception as e:
+        return jsonify({"success": False,"msg": "Could not fetch events", "error": str(e)}),500
+            
+        
+
 if __name__ == '__main__':
     app.run()
