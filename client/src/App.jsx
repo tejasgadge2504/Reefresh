@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import LandingpageUser from './pages/LandingpageUser/LandingpageUser'
 import Dashboard from './pages/Admin/Dashboard/Dashboard'
 import CreateEvent from './pages/Admin/Events/CreateEvent'
+import DashboardSA from './pages/SuperAdmin/DashboardSA'
 
 
 const App = () => {
@@ -15,6 +16,8 @@ const App = () => {
         {/* <Route path="/" element={<LandingpageUser />} /> */}
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/create-event" element={<CreateEvent />} />
+        <Route path="/superadminDashboard" element={<DashboardSA />} />
+
       </Routes>
     </div>
   );

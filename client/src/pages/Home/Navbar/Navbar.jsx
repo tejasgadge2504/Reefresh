@@ -52,7 +52,7 @@ const Navbar = () => {
             ))}
           </NavigationMenuList>
         </NavigationMenu>
-        <Button onClick={()=>{handleLogout}}>Logout</Button>
+        <Button onClick={handleLogout}>Logout</Button>
       </div>
     </header>
   );
