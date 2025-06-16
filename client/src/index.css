@@ -119,12 +119,12 @@
   }
 }
 
-html{
-  padding: 0;
+html {
   margin: 0;
-  box-sizing: border-box;
-  
+  padding: 0;
+  overflow-x: hidden; /* also avoids horizontal scroll */
 }
+
 
 ::selection{
   color:aquamarine;

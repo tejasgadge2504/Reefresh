@@ -1,4 +1,4 @@
-import CardMarket from '@/components/card-market';
+import CardMarket from '@/components/ui/card-market';
 import React from 'react'
 
 const Market = () => {
@@ -11,7 +11,23 @@ const Market = () => {
         Shop sustainable, support local—eco-friendly products crafted by coastal
         communities.
       </p>
-      <CardMarket image="./tshirt.png" title="Eco-friendly Tshirts" desc="loremcdcdscdscsdcds"></CardMarket>
+      <div className="flex items-center gap-7 justify-center mt-6">
+        <CardMarket
+          image="./tshirt.png"
+          title="Eco-friendly Tshirts"
+          desc="loremcdcdscdscsdcds"
+        ></CardMarket>
+        <CardMarket
+          image="./tshirt.png"
+          title="Eco-friendly Tshirts"
+          desc="loremcdcdscdscsdcds"
+        ></CardMarket>
+        <CardMarket
+          image="./tshirt.png"
+          title="Eco-friendly Tshirts"
+          desc="loremcdcdscdscsdcds"
+        ></CardMarket>
+      </div>
     </div>
   );
 }
